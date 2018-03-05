@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 5, 2018, 7:02:19 PM
+    Author     : 00140403
+*/
+#cabecera{
+    font-family: Rockwell Condensed;
+    font-size: 50px;
+    color: #5F6A6A;
+    text-align: center;   
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Rockwell;
+    background: #424949;
+    color: #E67E22;
+    padding: 15px;
+    border-radius: 100px;
+}
+#Menu{
+    text-align: center;
+}
+img{
+    border-radius: 100px;
+    
+}
+#cuerpo{
+    text-align: center;
+    font-family: Batang;
+    font-size: 30px;
+    color: #1C2833;
+}
+#pie{
+    background: #424949;
+    text-align: center;
+}
