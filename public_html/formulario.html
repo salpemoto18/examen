@@ -26,6 +26,51 @@ and open the template in the editor.
             </ul>
         </div>
         <div id="formulario">
+            <h1>Escribenos y te responderemos</h1>
+            <form>
+                <div>
+                <label for="Nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                <div>
+                <label for="Telefono"> Telefono: </label>
+                <input type="text" id="telefono"/>
+                </div>
+                
+                <div>
+                <label for="Correo"> eMail: </label>
+                <input type="text" id="email"/>
+                </div>
+                
+                <div>
+                <label for="Asunto"> Asunto: </label>
+                <input type="text" id="asunto"/>
+                <select id="asunto" naem="asunto">
+                    <option value="" selected="selected"> Elige una opcion</option>
+                    <option value="Informacion"> Solicitud de infromacion</option>
+                    <option value="Cotiza"> Solicitar cotizacion</option>
+                    <option value="Reclamacion"> Realizar una reclamacion</option>
+                    <option value="Otros"> Otros</option>
+                </select>
+                </div>
+                <div>
+                <label for="Mensaje"> Mensaje: </label>  
+                <textarea id="msg" cols="80" rows="10"></textarea>
+                </div>
+                
+                <div class="boton">
+                    <button type="submit"> Enviar</button>
+                </div>    
+            </form>    
+              
+        </div>
+         <div id="pie">
+            Calle Sanquintin Barrio Congreso Villa Carton #3
+            contactos:+1 (849) 286-1576 </br>
+            <img src="imagenes/twitter_logo_blue.png" width= 100px height=100px alt=""/>
+            <img src="imagenes/pccomponentes_logo_BD1_9.png" width= 100px height=100px alt="https://www.pccomponentes.com/"/>
+            <img src="imagenes/facebook-logo-3.png" width= 90px height=90px alt="https://www.facebook.com/pccomponentes/"/>
+            <img src="imagenes/unnamed.png" width= 80px height=80px alt=""/>
             
         </div>
     </body>

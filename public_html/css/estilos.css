@@ -33,11 +33,39 @@ img{
 }
 #cuerpo{
     text-align: center;
-    font-family: Batang;
-    font-size: 30px;
+    font-family: Arial;
+    font-size: 17px;
     color: #1C2833;
 }
 #pie{
     background: #424949;
     text-align: center;
+    font-size: 24px;
+    color:#E67E22;
+}
+form{
+    margin: 0 auto;
+    width: 700px;
+    background: #5F6A6A;
+    padding: 5px;
+    border-radius: 10px;
+}
+hi{
+    text-align: center;
+}
+form div{
+    margin-bottom: 5px;
+}
+label{
+    font-family: Rockwell;
+    width: 100px;
+    text-align: right;
+    display: inline;
+}
+input{
+    width: 200px;
+}
+textArea{
+    width: 400px;
+    vertical-align: middle;
 }
