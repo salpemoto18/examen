@@ -69,3 +69,13 @@ textArea{
     width: 400px;
     vertical-align: middle;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #E67E22;
+    font-size: 25px;
+}
+a:visited{
+    color:#E67E22;
+}
